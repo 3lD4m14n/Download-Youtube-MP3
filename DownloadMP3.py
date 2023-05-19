@@ -27,7 +27,7 @@ def download_audio(url, output_folder):
 url = input("Enter the YouTube video URL: ")
 
 # Output folder for the audio file
-output_folder = "/home/ddmc/workspace/WebScrape/Download Youtube MP3/"
+output_folder = "example"
 
 # Call the function to download the audio
 download_audio(url, output_folder)

@@ -23,11 +23,14 @@ def download_audio(url, output_folder):
 
     print(f"The audio has been successfully downloaded to: {mp3_file}")
 
-# YouTube video URL
-url = input("Enter the YouTube video URL: ")
-
 # Output folder for the audio file
-output_folder = "example"
+output_folder = "/home/ddmc/Música/"
+while True:
+    # YouTube video URL
+    url = input("Enter the YouTube video URL or 0 to exit: ")
 
-# Call the function to download the audio
-download_audio(url, output_folder)
+    if url == 0:
+        break
+
+    # Call the function to download the audio
+    download_audio(url, output_folder)

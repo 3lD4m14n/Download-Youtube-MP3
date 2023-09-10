@@ -29,7 +29,7 @@ while True:
     # YouTube video URL
     url = input("Enter the YouTube video URL or 0 to exit: ")
 
-    if url == 0:
+    if url == '0':
         break
 
     # Call the function to download the audio
